@@ -1,0 +1,14 @@
+@import "../../themes.scss";
+
+.employee-chart {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+
+    .employee-overview-header {
+        color: $primary-color;
+        font-weight: bold;
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+}

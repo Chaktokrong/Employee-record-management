@@ -1,0 +1,97 @@
+@import "../themes.scss";
+
+.report-page {
+    .box-date {
+        display: flex;
+        align-items: center;
+        width: 170px;
+        border-radius: 10px;
+        background-color: #fff;
+    }
+
+    .slash {
+        width: 4px;
+        height: 45px;
+        background-color: $primary-color;
+
+        @include laptop {
+            height: 40px;
+        }
+
+        @include mobile-large {
+            height: 40px;
+            width: 2px;
+            padding: 0px;
+            margin: 0px;
+        }
+    }
+
+    .color {
+        color: $primary-color;
+        font-size: $font-Size-title;
+        font-weight: bold;
+
+        @include laptop {
+            font-size: 20px;
+        }
+
+        @include mobile-large {
+            font-size: 16px;
+        }
+    }
+
+    .MuiOutlinedInput-input {
+        color: black !important;
+    }
+
+    .MuiInputLabel-root {
+        color: black !important;
+    }
+
+    .css-1gywuxd-MuiInputBase-root-MuiOutlinedInput-root {
+        @include mobile-large {
+            width: 150px;
+        }
+    }
+
+    .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+        border-color: #fff;
+    }
+
+    :hover .MuiOutlinedInput-input {
+        color: #fff;
+    }
+
+    :hover .MuiInputLabel-root {
+        color: black;
+    }
+
+    :hover .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+        border-color: #fff;
+    }
+
+    .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-input {
+        color: black;
+    }
+
+    .MuiInputLabel-root.Mui-focused {
+        color: black;
+    }
+
+    .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+        border-color: #fff;
+    }
+
+    .btn-add {
+        border-radius: 10px;
+        background-color: $primary-color;
+        padding: 0px 15px;
+        color: $secondary-color;
+
+        .style-add {
+            color: $secondary-color;
+            font-size: $font-Size-Subtitle;
+            text-transform: none;
+        }
+    }
+}

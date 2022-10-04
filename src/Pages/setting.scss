@@ -1,0 +1,56 @@
+@import "../themes.scss";
+
+.setting-page {
+    .slash {
+        width: 4px;
+        height: 45px;
+        background-color: $primary-color;
+
+        @include laptop {
+            height: 40px;
+        }
+
+        @include mobile-large {
+            height: 40px;
+            width: 2px;
+            padding: 0px;
+            margin: 0px;
+        }
+    }
+
+    .color {
+        color: $primary-color;
+        font-size: $font-Size-title;
+        font-weight: bold;
+
+        @include laptop {
+            font-size: 20px;
+        }
+
+        @include mobile-large {
+            font-size: 16px;
+        }
+    }
+
+    .grid {
+        .grid-item {
+            .box-item {
+                border-radius: $radius;
+                width: 100%;
+                height: 120px;
+                background-color: #fff;
+
+                .icon {
+                    font-size: 35px;
+                    color: #0969a0;
+                }
+
+                .text-title {
+                    font-weight: bold;
+                    color: $primary-color;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}

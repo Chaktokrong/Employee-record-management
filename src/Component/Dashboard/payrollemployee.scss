@@ -1,0 +1,15 @@
+@import "../../themes.scss";
+
+.payroll-employee {
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+
+    .employee-overview-header {
+        color: $primary-color;
+        font-weight: bold;
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+}

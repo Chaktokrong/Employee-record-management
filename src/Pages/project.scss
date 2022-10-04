@@ -1,0 +1,180 @@
+@import "../themes.scss";
+
+.project-page {
+    .container-textField {
+        display: flex;
+        align-items: center;
+        width: 300px;
+        border-radius: 10px;
+        background-color: #fff;
+
+        .text-field {
+            .MuiOutlinedInput-input {
+                color: black !important;
+            }
+
+            .MuiInputLabel-root {
+                color: black !important;
+            }
+
+            .css-1gywuxd-MuiInputBase-root-MuiOutlinedInput-root {
+                @include mobile-large {
+                    width: 150px;
+                }
+            }
+
+            .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+                border-color: #fff;
+            }
+
+            :hover .MuiOutlinedInput-input {
+                color: #fff;
+            }
+
+            :hover .MuiInputLabel-root {
+                color: black;
+            }
+
+            :hover .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+                border-color: #fff;
+            }
+
+            .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-input {
+                color: black;
+            }
+
+            .MuiInputLabel-root.Mui-focused {
+                color: black;
+            }
+
+            .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+                border-color: #fff;
+            }
+
+            .css-1nv32ag-MuiButtonBase-root-MuiIconButton-root {
+                @include mobile-large {
+                    display: none;
+                }
+            }
+        }
+    }
+    .container-textField-button {
+        display: flex;
+        align-items: center;
+        width: 200px;
+        border-radius: 10px;
+        background-color: #fff;
+
+        .btn-calendar {
+            color: #000;
+            font-family: $font-title;
+            font-size: $font-Size-Subtitle;
+            text-transform: none;
+        }
+    }
+
+    // material class
+    .css-bijmy9 {
+        @include laptop {
+            width: 80%;
+        }
+
+        @include mobile {
+            width: 100%;
+        }
+
+        @include mobile-large {
+            width: 160px;
+            margin-left: -20px;
+        }
+    }
+
+    .css-i4bv87-MuiSvgIcon-root {
+        @include mobile-large {
+            font-size: 1em;
+        }
+    }
+
+    .slash {
+        width: 4px;
+        height: 45px;
+        background-color: $primary-color;
+
+        @include laptop {
+            height: 40px;
+        }
+
+        @include mobile-large {
+            height: 40px;
+            width: 2px;
+            padding: 0px;
+            margin: 0px;
+        }
+    }
+
+    .color {
+        color: $primary-color;
+        font-size: $font-Size-title;
+        font-weight: bold;
+
+        @include laptop {
+            font-size: 20px;
+        }
+
+        @include mobile-large {
+            font-size: 16px;
+        }
+    }
+
+    .icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        color: $primary-color;
+        width: 1.2em;
+
+        @include laptop {
+            width: 1em;
+        }
+
+        @include mobile-large {
+            display: none;
+        }
+    }
+
+    .btn-add {
+        border-radius: 10px;
+        background-color: $primary-color;
+        padding: 0px 15px;
+        color: $secondary-color;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .style-add {
+            color: $secondary-color;
+            font-size: $font-Size-description;
+            font-weight: bold;
+            text-transform: none;
+
+            @include mobile-large {
+                font-size: 14px;
+            }
+        }
+
+        @include laptop {
+            padding: 0px 10px;
+            height: 40px;
+            margin-right: 30px;
+        }
+
+        @include mobile-large {
+            padding: 0px 5px;
+        }
+    }
+
+    .card-container {
+        margin-top: 30px;
+    }
+}

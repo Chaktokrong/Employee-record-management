@@ -1,0 +1,81 @@
+@import "../../themes.scss";
+
+.create-office-dialog {
+    .MuiPaper-root {
+        border-radius: 12px !important;
+        // width: 500px !important;
+    }
+
+    .title {
+        font-family: $font-title;
+        font-size: $font-title;
+        color: $primary-color;
+        font-weight: bold;
+    }
+
+    .close-icon {
+        color: red;
+        cursor: pointer;
+    }
+
+    .header-title {
+        color: $primary-color;
+        font-weight: bold;
+        font-size: $font-Size-Subtitle;
+    }
+
+    .header-body {
+        color: $primary-color;
+        font-weight: bold;
+        font-size: $font-Size-description;
+    }
+
+    .header-title-lasname {
+        color: #fff;
+    }
+
+    .profile {
+        direction: row;
+        justify-content: center;
+
+        .avater-image {
+            width: 200px;
+            height: 200px;
+            cursor: pointer;
+            border-radius: 10% !important;
+            box-shadow: 1px 4px 5px 0px rgba(39, 39, 39, 0.19);
+            -webkit-box-shadow: 1px 4px 5px 0px rgba(39, 39, 39, 0.19);
+            -moz-box-shadow: 1px 4px 5px 0px rgba(39, 39, 39, 0.19);
+        }
+    }
+
+    .container {
+        .table-top {
+            width: 100%;
+
+            .header-row {
+                .header-title {
+                    padding: 10px 0px 10px 0px;
+                    border: none;
+                    font-size: 16px;
+                    font-weight: bold;
+                    color: $primary-color;
+                }
+            }
+        }
+    }
+
+    .action-button {
+        padding: 0px 18px 16px 18px;
+        width: 100%;
+
+        .btn-create {
+            width: 100%;
+            padding: 8px 40px;
+            border-radius: 5px;
+            background-color: $primary-color;
+            color: #fff;
+            font-weight: bold;
+        }
+    }
+}

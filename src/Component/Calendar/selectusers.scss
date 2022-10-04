@@ -1,0 +1,15 @@
+@import "../../themes.scss";
+
+.select-muti-user {
+  .avatar-display-group {
+    display: flex;
+    justify-content: left;
+
+    .avatar {
+      //   font-size: 20px;
+      width: 34px;
+      height: 34px;
+      margin-top: 22px;
+    }
+  }
+}

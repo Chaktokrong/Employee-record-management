@@ -1,0 +1,112 @@
+@import "../../themes.scss";
+
+.container-departement {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    // border-bottom: 1px solid $primary-color;
+    // box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    // box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+    box-shadow: rgba(97, 97, 97, 0.09) 0px 3px 12px;
+
+    .list-title-field {
+        margin-top: 8px;
+        font-family: $font-title;
+        font-size: $font-Size-Subtitle;
+    }
+
+    .input-flied {
+        .MuiOutlinedInput-input {
+            // color: $primary-color !important;
+            font-size: $font-Size-Subtitle;
+        }
+
+        // .MuiInputLabel-root {
+        //     color: $primary-color !important;
+        // }
+
+        // .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+        //     border: none !important;
+        // }
+
+        // .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-input {
+        //     color: $primary-color !important;
+        // }
+
+        // .MuiInputLabel-root.Mui-focused {
+        //     color: $primary-color !important;
+        // }
+
+        // .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+        //     border: none !important;
+        // }
+    }
+
+    .description {
+        .input-flied {
+            font-size: 20px;
+            .MuiOutlinedInput-input {
+                // color: $primary-color !important;
+                font-size: $font-Size-Subtitle;
+            }
+
+            // .MuiInputLabel-root {
+            //     color: $primary-color !important;
+            // }
+
+            // .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+            //     border: none !important;
+            // }
+
+            // .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-input {
+            //     color: $primary-color !important;
+            // }
+
+            // .MuiInputLabel-root.Mui-focused {
+            //     color: $primary-color !important;
+            // }
+
+            // .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+            //     border: none !important;
+            // }
+        }
+    }
+
+    .btn-icon-insurance {
+        margin-top: 20px;
+        .icon {
+            font-size: 22px;
+            color: rgb(255, 65, 65);
+        }
+    }
+    .btn-icon-contract {
+        margin-top: 100px;
+        .icon {
+            font-size: 22px;
+            color: rgb(255, 65, 65);
+        }
+    }
+    .btn-icon-experience {
+        margin-top: 45px;
+        .icon {
+            font-size: 22px;
+            color: rgb(255, 65, 65);
+        }
+    }
+
+    .btn-icon-department {
+        margin-top: 40px;
+        // @include mobile {
+        //     margin-top: 10px;
+        // }
+        // @include mobile-small {
+        //     margin-left: 90px;
+        //     margin-top: 10px;
+        // }
+        .icon {
+            font-size: 22px;
+            color: rgb(255, 65, 65);
+        }
+    }
+}

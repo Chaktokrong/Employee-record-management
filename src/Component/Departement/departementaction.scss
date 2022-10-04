@@ -1,0 +1,24 @@
+@import "../../themes.scss";
+
+.container-icons-depart {
+    .box-icon-add {
+        width: 35px !important;
+        height: 35px !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: $primary-color !important;
+        background-color: $primary-color !important;
+    }
+    .box-icon-del {
+        width: 35px !important;
+        height: 35px !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: red !important;
+        background-color: red !important;
+    }
+}

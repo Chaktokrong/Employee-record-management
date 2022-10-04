@@ -1,0 +1,59 @@
+@import "../../themes.scss";
+
+.set-typeof-timeoff {
+    .slash {
+        width: 4px;
+        height: 45px;
+        background-color: $primary-color;
+
+        @include laptop {
+            height: 40px;
+        }
+
+        @include mobile-large {
+            height: 40px;
+            width: 2px;
+            padding: 0px;
+            margin: 0px;
+        }
+    }
+
+    .sub-title {
+        color: $primary-color;
+        font-weight: bold;
+    }
+
+    .icon-horiz {
+        color: $primary-color;
+    }
+
+    .color {
+        color: $primary-color;
+        font-size: $font-Size-title;
+        font-weight: bold;
+
+        @include laptop {
+            font-size: 20px;
+        }
+
+        @include mobile-large {
+            font-size: 16px;
+        }
+    }
+    .btn-timeoff {
+        border-radius: 10px;
+        padding: 0px 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: $primary-color;
+        :hover {
+            background-color: $primary-color;
+        }
+    }
+    .card-timeoff {
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+    }
+}

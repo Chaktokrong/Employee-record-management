@@ -1,0 +1,86 @@
+@import "../../themes.scss";
+
+.dialog-holiday-create {
+    .MuiPaper-root {
+        border-radius: 12px !important;
+        // width: 600px !important;
+    }
+
+    .header-title {
+        color: $primary-color;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .close-icon {
+        color: red !important;
+    }
+
+    .title-text-field {
+        color: $primary-color;
+        font-size: $font-Size-description;
+        font-weight: bold;
+    }
+
+    .action-button {
+        padding: 0px 18px 16px 18px;
+        width: 100%;
+
+        .create-btn-holiday {
+            box-shadow: none !important;
+        }
+        .create-btn-timeoff {
+            background-color: $primary-color;
+            border-radius: 5px;
+            margin-top: 20px;
+            width: 100%;
+            color: #fff;
+            padding: 8px 40px;
+            font-weight: bold;
+        }
+        .btn-delete {
+            background-color: $hover-red;
+            margin-top: 20px;
+            width: 100%;
+            color: #fff;
+        }
+    }
+}
+
+.dialog-delete-branch-location {
+    // position: absolute;
+    // top: 50%;
+    // left: 50%;
+    // transform: translate(-50%, -50%);
+    width: 430px;
+    background-color: #fff;
+    box-shadow: 30px;
+    border-radius: 10px;
+    padding: 20px;
+
+    .header-title {
+        color: $primary-color;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+    }
+
+    .close-icon {
+        color: red !important;
+    }
+
+    .body-void {
+        color: $primary-color;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    .btn-delete {
+        background-color: rgb(255, 71, 71);
+        color: #fff;
+        font-weight: bold;
+        &:hover {
+            background-color: #f95555;
+        }
+    }
+}

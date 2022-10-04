@@ -1,0 +1,149 @@
+@import "../../themes.scss";
+
+.tasks-dialog {
+    // .MuiPaper-root {
+    //     border-radius: 12px !important;
+    //     width: 2000px !important;
+    // }
+
+    .header-title {
+        color: $primary-color;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .title {
+        font-family: $font-title;
+        font-size: $font-title;
+        color: $primary-color;
+        font-weight: bold;
+    }
+
+    .close-icon {
+        color: red;
+        cursor: pointer;
+    }
+
+    .field-title {
+        font-size: $font-Size-description;
+        color: $primary-color;
+        font-weight: bold;
+    }
+    .field-input {
+        .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+            border-color: #fff;
+        }
+        .MuiOutlinedInput-input {
+            color: black !important;
+            font-size: $font-Size-Subtitle;
+            font-weight: bold;
+        }
+    }
+
+    .field-input-des {
+        .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+            border-color: #fff;
+        }
+        .MuiOutlinedInput-input {
+            color: black !important;
+            font-size: $font-Size-description;
+        }
+    }
+
+    .field-list-title {
+        font-size: $font-Size-title;
+        color: $primary-color;
+        font-weight: bold;
+    }
+
+    .box-list {
+        border-radius: $radius;
+        border: 1px solid rgb(167, 166, 166);
+        height: 200px;
+    }
+
+    .btn-list-icon {
+        margin-top: -4px;
+        .add-list-icon {
+            color: $primary-color;
+            font-size: 25px;
+        }
+    }
+
+    .text-field {
+        width: 100%;
+        .css-1n4twyu-MuiInputBase-input-MuiOutlinedInput-input {
+            border-radius: $radius !important;
+        }
+        .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+            border-radius: $radius !important;
+        }
+        // .MuiOutlinedInput-input {
+        //     font-family: $font-title;
+        // }
+        .css-154xyx0-MuiInputBase-root-MuiOutlinedInput-root {
+            border-radius: $radius !important;
+        }
+    }
+
+    // End MUI class
+    .box-text-field {
+        display: flex;
+        justify-content: center;
+
+        .icon-image {
+            background-color: #fff;
+            color: gray;
+            padding: 5px;
+            border-radius: 50%;
+            font-size: 2.5em;
+            border: 0.5px solid #ccc;
+        }
+
+        .import-image {
+            width: 100px;
+            height: 100px;
+            cursor: pointer;
+            box-shadow: 1px 4px 5px 0px rgba(39, 39, 39, 0.19);
+            -webkit-box-shadow: 1px 4px 5px 0px rgba(39, 39, 39, 0.19);
+            -moz-box-shadow: 1px 4px 5px 0px rgba(39, 39, 39, 0.19);
+        }
+    }
+
+    .field-title-image {
+        text-align: center;
+        font-size: $font-Size-Subtitle;
+        color: $primary-color;
+        font-weight: bold;
+        padding-bottom: 20px;
+    }
+
+    .crop-icon {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn-add {
+        width: 100%;
+        padding: 8px 40px;
+        border-radius: 5px;
+        background-color: $primary-color;
+        color: #fff;
+        font-weight: bold;
+    }
+
+    .action-button {
+        padding: 0px 18px 16px 18px;
+        width: 100%;
+
+        .btn-create {
+            width: 100%;
+            padding: 8px 40px;
+            border-radius: 5px;
+            background-color: $primary-color;
+            color: #fff;
+            font-weight: bold;
+        }
+    }
+}

@@ -1,0 +1,348 @@
+@import "../../themes.scss";
+
+.DetailEmployee {
+    .css-1c35gzc-MuiGrid-root {
+        margin-top: -10px !important;
+    }
+
+    .text-field {
+        .MuiOutlinedInput-input {
+            color: $primary-color !important;
+        }
+
+        .MuiInputLabel-root {
+            color: black !important;
+        }
+
+        .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+            border-color: #f8f8f8 !important;
+            cursor: pointer !important;
+        }
+
+        :hover .MuiOutlinedInput-input {
+            color: #f1f1f2;
+        }
+
+        :hover .MuiInputLabel-root {
+            color: black;
+        }
+
+        :hover .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+            border-color: #f1f1f2;
+        }
+
+        .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-input {
+            color: black;
+        }
+
+        .MuiInputLabel-root.Mui-focused {
+            color: black;
+        }
+
+        .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+            border-color: #f1f1f2;
+        }
+        .icon-date {
+            color: $primary-color;
+        }
+    }
+
+    .slash {
+        width: 4px;
+        height: 45px;
+        background-color: $primary-color;
+    }
+
+    .color {
+        color: $primary-color;
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    .make {
+        align-items: center;
+        justify-content: flex-start;
+        direction: row;
+    }
+
+    .left-icon {
+        display: flex;
+        direction: column;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    //inline space
+    .make-icon {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .card {
+        align-items: center;
+        justify-content: center;
+        direction: row;
+
+        .icon {
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #c0e1ff;
+            border-radius: 10px;
+        }
+
+        .icon-mark {
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #5a5a5a;
+            border-radius: 10px;
+        }
+
+        .text {
+            color: $gray-color;
+        }
+
+        .num-make {
+            font-size: 40px;
+            font-weight: bold;
+            color: $primary-color;
+        }
+    }
+
+    .center {
+        line-height: 1;
+        justify-content: space-evenly;
+        align-items: center;
+        orientation: center;
+
+        .text-inline {
+            // flex-direction:row ;
+            text-align: left;
+            justify-content: flex-start;
+            font-weight: bold;
+        }
+
+        .sub-color {
+            color: #e0e0e0;
+            font-size: small;
+        }
+
+        .success {
+            font-size: large;
+            color: green;
+        }
+
+        .warning {
+            font-size: large;
+            color: orange;
+        }
+
+        .btn-maker {
+            color: #e89014;
+            background-color: rgb(255, 255, 141);
+
+            .circle {
+                width: 30px;
+                height: 30px;
+                border-radius: 20%;
+                margin-right: 5px;
+                font-weight: bold;
+                font-size: large;
+                color: #e89014;
+            }
+
+            .text-padding {
+                font-size: 22;
+                font-weight: bold;
+                color: #e89014;
+            }
+        }
+    }
+
+    .title {
+        .right {
+            color: $primary-color;
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        .text {
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        .buttom {
+            color: orange;
+        }
+
+        .start-merge {
+            margin-top: 5%;
+            text-align: left;
+            display: block;
+
+            .success {
+                font-size: small;
+                color: green;
+            }
+
+            .warning {
+                font-size: small;
+                color: orange;
+            }
+
+            .error {
+                font-size: small;
+                color: orangered;
+            }
+
+            .primary {
+                font-size: small;
+                color: rgb(0, 145, 255);
+            }
+        }
+
+        .footer {
+            display: flex;
+            align-items: flex-start;
+
+            .color {
+                color: $primary-color;
+                font-size: 22px;
+                font-weight: bold;
+            }
+
+            .modal {
+                color: #e0e0e0;
+                font-size: small;
+            }
+        }
+    }
+
+    .btn-add {
+        border-radius: 10px;
+        background-color: $primary-color !important;
+        padding: 4px 10px;
+        flex-direction: column;
+        justify-content: center;
+
+        .style-add {
+            color: $secondary-color;
+            font-size: $font-Size-Subtitle;
+            font-weight: 400;
+        }
+    }
+
+    .main_containner {
+        margin-top: 30px;
+
+        .profile-container {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+
+            .profile {
+                justify-content: center;
+
+                .avater-image {
+                    width: 200px;
+                    height: 200px;
+                }
+            }
+
+            .profile-title {
+                font-family: $font-title;
+                font-size: $font-Size-Subtitle;
+                font-weight: bold;
+                color: $primary-color;
+            }
+
+            .Main-descriptoin {
+                letter-spacing: 10px;
+                padding: 10px 20px;
+
+                .title-list-add {
+                    font-family: $font-title;
+                    font-size: $font-Size-title;
+                    font-weight: bold;
+                    color: $primary-color;
+                    // text-transform: uppercase;
+                    border-bottom: 1px solid $primary-color;
+                }
+
+                .btn-list-icon {
+                    margin-top: -4px;
+                    .add-list-icon {
+                        color: $primary-color;
+                        font-size: 25px;
+                    }
+                }
+            }
+        }
+
+        .title-field {
+            font-size: $font-Size-description;
+            font-family: $font-title;
+            color: $primary-color;
+            font-weight: bold;
+        }
+
+        .front-title-field {
+            font-size: $font-Size-description;
+            font-family: $font-title;
+            color: $primary-color;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .title-list-add {
+            font-family: $font-title;
+            font-size: $font-Size-title;
+            font-weight: bold;
+            color: $primary-color;
+            // text-transform: uppercase;
+            border-bottom: 1px solid $primary-color;
+        }
+
+        .btn-list-icon {
+            margin-top: -4px;
+            .add-list-icon {
+                color: $primary-color;
+                font-size: 25px;
+            }
+        }
+
+        .field-select {
+            width: 100%;
+            // .css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root {
+            //     border-radius: $radius !important;
+            // }
+            // .css-ahj2mt-MuiTypography-root {
+            //     font-family: $font-title;
+            // }
+        }
+
+        .date-input {
+            // cursor: pointer;
+            // .css-19qh8xo-MuiInputBase-input-MuiOutlinedInput-input {
+            //     font-family: $font-title;
+            //     font: $font-title;
+            // }
+        }
+
+        .input-field {
+            width: 100%;
+            // .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+            //     border-radius: $radius !important;
+            // }
+            // .MuiOutlinedInput-input {
+            //     font-family: $font-title;
+            // }
+        }
+    }
+}

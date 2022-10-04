@@ -1,0 +1,115 @@
+@import "../../themes.scss";
+
+.box-form {
+    width: 100%;
+    height: 96%;
+
+    .stack-header {
+        border-left: 4px solid #0f81c2;
+        background-color: #0f81c233;
+        padding: 10px 20px;
+        margin: 20px 0px;
+
+        .title {
+            color: #0f81c2;
+            font-weight: bold;
+            font-family: $font-title;
+        }
+    }
+
+    .stack-delete {
+        margin-top: 20px;
+        width: 100%;
+        display: flex;
+        justify-content: right;
+
+        .delete-icon {
+            color: red;
+        }
+    }
+
+    .header-body {
+        font-family: $font-title;
+        color: $primary-color;
+        font-weight: bold;
+        font-size: $font-Size-description;
+    }
+
+    .icons {
+        color: $primary-color;
+        font-size: 24px;
+        margin-right: 10px;
+    }
+
+    .icons-reason {
+        color: $primary-color;
+        font-size: 18px;
+        margin-top: 2px;
+        margin-right: 4px;
+    }
+
+    .field-select {
+        width: 100%;
+        .css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root {
+            border-radius: $radius !important;
+        }
+        .MuiOutlinedInput-input {
+            font-family: $font-title;
+        }
+    }
+
+    .text-field {
+        width: 100%;
+        .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+            border-radius: $radius !important;
+        }
+        .MuiOutlinedInput-input {
+            font-family: $font-title;
+        }
+    }
+    .textfield-reason {
+        width: 100%;
+        margin-top: 10px;
+        .MuiOutlinedInput-input {
+            font-family: $font-title;
+        }
+        .css-8ewcdo-MuiInputBase-root-MuiOutlinedInput-root {
+            border-radius: $radius !important;
+        }
+    }
+
+    .box-time {
+        display: flex;
+        justify-content: center;
+        padding: 0px 22px;
+
+        .time-title {
+            padding: 0px 0px;
+            font-family: $font-title;
+        }
+    }
+
+    .box-action {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        .btn-cencel {
+            border: 1px solid red;
+            border-radius: 8px;
+            padding: 5px 30px;
+            color: red;
+            font-family: $font-title;
+            text-transform: none;
+            font-weight: bold;
+        }
+        .btn-add {
+            border: 1px solid $primary-color;
+            border-radius: 8px;
+            padding: 5px 30px;
+            font-family: $font-title;
+            text-transform: none;
+            font-weight: bold;
+        }
+    }
+}

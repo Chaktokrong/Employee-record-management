@@ -1,0 +1,37 @@
+@import '../../themes.scss';
+
+.delete-salary {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 450px;    
+    background-color: #fff;
+    box-shadow: 30px;
+    border-radius: 10px;
+    padding: 20px;
+
+    .header-title {
+        color: $primary-color;
+        font-weight: bold;
+    }
+
+    .body-title {
+        color: $primary-color;
+    }
+
+    .body-void {
+        color: $primary-color;
+        text-transform: uppercase;   
+        font-weight: bold;     
+    }
+
+    .btn-delete{
+       background-color: rgb(255, 71, 71);
+       color: #fff;
+
+       &:hover{
+        background-color: #ff6868;
+       }
+    }
+}

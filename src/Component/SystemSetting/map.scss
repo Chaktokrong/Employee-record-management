@@ -1,0 +1,18 @@
+@import "../../themes.scss";
+
+.map-container {
+  .location {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #b0defb8b;
+    border: 1px solid $primary-color;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    .icon-location {
+      color: $primary-color;
+    }
+  }
+}

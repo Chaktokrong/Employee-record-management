@@ -1,0 +1,198 @@
+@import "../themes.scss";
+
+.office-page {
+    .slash {
+        width: 4px;
+        height: 45px;
+        background-color: $primary-color;
+
+        @include laptop {
+            height: 40px;
+        }
+
+        @include mobile-large {
+            height: 40px;
+            width: 2px;
+            padding: 0px;
+            margin: 0px;
+        }
+    }
+
+    .color {
+        color: $primary-color;
+        font-size: $font-Size-title;
+        font-weight: bold;
+    }
+
+    .stack-btn {
+        border-radius: 10px;
+        background-color: $primary-color;
+        padding: 0px 15px;
+        color: $secondary-color;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .style-add {
+            color: $secondary-color;
+            font-size: $font-Size-description;
+            font-weight: bold;
+            text-transform: none;
+
+            @include mobile-large {
+                font-size: 14px;
+            }
+        }
+    }
+
+    .container {
+        margin-top: 20px;
+        display: flex;
+        scroll-behavior: auto;
+        .table-body {
+            border-radius: 10px;
+            background-color: #fff;
+            .table-row {
+                border-radius: 10px;
+                .table-first-cell {
+                    padding: 15px;
+                    border: none;
+                    width: 25%;
+                    font-size: 14px;
+                    background-color: $primary-color;
+                    border-bottom-left-radius: 10px;
+                    border-start-start-radius: 10px;
+                    .text-of-hand {
+                        text-align: center;
+                        color: #fff;
+                        font-size: $font-Size-title;
+                    }
+                }
+
+                .table-seconde-cell {
+                    padding: 15px;
+                    border: none;
+                    border-top-right-radius: 10px;
+                    border-bottom-right-radius: 10px;
+                }
+                .table-cell {
+                    font-size: 14px;
+                    background-color: #fff;
+                    place-items: center;
+                    .arrow-icon {
+                        color: $primary-color;
+                        font-size: 50px;
+                    }
+                    .image-employee {
+                        width: 56px;
+                        height: 56px;
+                    }
+                    .title {
+                        color: rgb(46, 46, 46);
+                        font-size: $font-title;
+                        font-weight: 500;
+                    }
+
+                    .sub-title {
+                        color: $primary-color;
+                        font-size: $font-Size-description;
+                    }
+
+                    .sub-title-center {
+                        color: $primary-color;
+                        font-size: $font-Size-description;
+
+                        @include tablet {
+                            display: none;
+                        }
+                        @include mobile-large {
+                            display: none;
+                        }
+                        @include mobile {
+                            display: none;
+                        }
+                        @include mobile-small {
+                            display: none;
+                        }
+                    }
+
+                    .sub-title-I {
+                        color: black;
+                        font-weight: 500;
+                        font-size: $font-Size-description;
+
+                        @include tablet {
+                            display: none;
+                        }
+                        @include mobile-large {
+                            display: none;
+                        }
+                        @include mobile {
+                            display: none;
+                        }
+                        @include mobile-small {
+                            display: none;
+                        }
+                    }
+                }
+                .table-cell {
+                    border: none;
+                    padding: 5px;
+                }
+            }
+        }
+
+        .card-details {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            width: 100%;
+
+            @include tablet {
+                display: none;
+            }
+            @include mobile-large {
+                display: none;
+            }
+            @include mobile {
+                display: none;
+            }
+            @include mobile-small {
+                display: none;
+            }
+
+            .header-card {
+                color: $primary-color;
+                font-weight: bold;
+                font-size: $font-title;
+            }
+            .css-1ygcj2i-MuiTableCell-root {
+                border: none;
+                padding: 2px;
+                text-align: center;
+                border-radius: 20px;
+                font-size: $font-Size-Subtitle;
+            }
+            .table-head {
+                border-radius: 20px;
+                background-color: $gray-color;
+            }
+            .under-table {
+                padding: 10px;
+
+                .body {
+                    .table-cell {
+                        border: none;
+                        padding: 5px;
+                        text-align: center;
+                        .circle-icon {
+                            color: $primary-color;
+                            font-size: $font-Size-Subtitle;
+                            margin-top: 2px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

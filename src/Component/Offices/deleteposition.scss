@@ -1,0 +1,27 @@
+@import "../../themes.scss";
+
+.detete_position {
+    .MuiPaper-root {
+        border-radius: 12px !important;
+        width: 450px !important;
+    }
+
+    .header-title {
+        color: $primary-color;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .close-icon {
+        color: red !important;
+    }
+    .actions-btn {
+        width: 100%;
+        // padding: 16px 24px;
+        padding: 0px 18px 16px 18px;
+        .btn-delete {
+            background-color: $hover-red;
+            color: #fff;
+        }
+    }
+}

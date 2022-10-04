@@ -1,0 +1,33 @@
+@import "../../themes.scss";
+
+.delete-section-dailog {
+    .MuiPaper-root {
+        border-radius: 12px !important;
+        width: 450px !important;
+    }
+
+    .close-icon {
+        color: red;
+        cursor: pointer;
+    }
+
+    .title {
+        font-weight: bold;
+        color: $primary-color;
+    }
+    .body-title {
+        color: $primary-color;
+    }
+
+    .body-void {
+        color: $primary-color;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    .btn-void {
+        background-color: red;
+        color: white;
+        border: none;
+    }
+}

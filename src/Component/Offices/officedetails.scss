@@ -1,0 +1,158 @@
+@import "../../themes.scss";
+
+.detial-office {
+    .slash {
+        width: 4px;
+        height: 45px;
+        background-color: $primary-color;
+
+        @include laptop {
+            height: 40px;
+        }
+
+        @include mobile-large {
+            height: 40px;
+            width: 2px;
+            padding: 0px;
+            margin: 0px;
+        }
+    }
+
+    .color {
+        color: $primary-color;
+        font-size: $font-Size-title;
+        font-weight: bold;
+    }
+    .btn-create {
+        border-radius: 10px;
+        background-color: $primary-color;
+        padding: 0px 15px;
+        color: $secondary-color;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .style-add {
+            color: $secondary-color;
+            font-size: $font-Size-description;
+            font-weight: bold;
+            text-transform: none;
+
+            @include mobile-large {
+                font-size: 14px;
+            }
+        }
+    }
+
+    .profile-container {
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 20px;
+
+        .profile {
+            justify-content: center;
+
+            .avater-image {
+                margin-top: 10px;
+                width: 120px;
+                height: 120px;
+            }
+        }
+
+        .name-container {
+            text-align: center;
+            font-family: $font-title;
+            font-size: $font-Size-title;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .position-container {
+            text-align: center;
+            font-family: $font-title;
+            font-size: $font-Size-description;
+        }
+        .box-contact {
+            padding: 10px;
+            .contact-icon {
+                color: $primary-color;
+            }
+            .contact-icon-location {
+                color: $primary-color;
+                font-size: 30px;
+            }
+            .contact-des {
+                margin-top: 2px;
+                font-family: $font-title;
+                font-size: 14px;
+                font-weight: bold;
+            }
+        }
+        .box_outside {
+            padding: 1px;
+            border-radius: 5px;
+            background-color: $background-table-row;
+
+            .edit-icon {
+                color: $primary-color;
+                font-size: 21px;
+            }
+            .delete-icon {
+                color: red;
+            }
+        }
+    }
+
+    .card-details {
+        width: 100%;
+
+        .header-card {
+            color: $primary-color;
+            font-weight: bold;
+            font-size: $font-title;
+        }
+        .css-1ygcj2i-MuiTableCell-root {
+            border: none;
+            text-align: center;
+            font-size: $font-Size-Subtitle;
+        }
+        .table-head {
+            // border-radius: 20px;
+            background-color: $primary-color;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+        .cell-card {
+            font-family: $font-title;
+            font-size: $font-Size-Subtitle;
+            font-weight: bold;
+            color: #fff;
+        }
+        .under-table {
+            border-collapse: separate;
+            border-spacing: 0px 8px;
+
+            .body {
+                .table-cell {
+                    border: none;
+                    padding: 10px;
+                    background-color: #fff;
+                    text-align: center;
+                    font-family: $font-title;
+                    .circle-icon {
+                        color: $primary-color;
+                        font-size: $font-Size-Subtitle;
+                        margin-top: 2px;
+                    }
+                }
+            }
+
+            .box_outside {
+                padding: 1px;
+                border-radius: 5px;
+                background-color: $background-table-row;
+            }
+        }
+    }
+}

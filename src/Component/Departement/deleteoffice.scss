@@ -1,0 +1,74 @@
+@import "../../themes.scss";
+
+.delete-office-dialog {
+    .MuiPaper-root {
+        border-radius: 12px !important;
+        width: 450px !important;
+    }
+    .title {
+        color: $primary-color;
+        font-weight: bold;
+    }
+
+    .body-title {
+        color: $primary-color;
+    }
+
+    .close-icon {
+        color: red;
+        cursor: pointer;
+    }
+
+    .box-form {
+        padding: 0px 10px 10px 10px;
+
+        .body-void {
+            color: $primary-color;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        .btn-void {
+            background-color: red;
+            color: white;
+            border: none;
+        }
+    }
+}
+
+.deleteOffice {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 520px;
+    background-color: #fff;
+    box-shadow: 30px;
+    border-radius: 10px;
+    padding: 20px;
+
+    @include mobile-large {
+        width: 400px;
+        padding: 10px 20px;
+        // height: 700px;
+    }
+
+    .header-title {
+        color: $primary-color;
+        font-weight: bold;
+
+        @include mobile-large {
+            font-size: 18px;
+            font-weight: 500;
+        }
+    }
+    .btn_delete {
+        background-color: rgb(255, 71, 71);
+        box-shadow: none;
+        font-weight: bold;
+        &:hover {
+            background-color: rgb(255, 117, 117);
+            box-shadow: none;
+        }
+    }
+}

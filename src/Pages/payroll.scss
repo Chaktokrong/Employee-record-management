@@ -1,0 +1,205 @@
+@import "../themes.scss";
+
+.payroll-page {
+    .box-date {
+        display: flex;
+        align-items: center;
+        width: 300px;
+        border-radius: 10px;
+        background-color: #fff;
+    }
+
+    .MuiOutlinedInput-input {
+        color: black !important;
+    }
+
+    .MuiInputLabel-root {
+        color: black !important;
+    }
+
+    .css-1gywuxd-MuiInputBase-root-MuiOutlinedInput-root {
+        @include mobile-large {
+            width: 150px;
+        }
+    }
+
+    .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+        border-color: #fff;
+    }
+
+    :hover .MuiOutlinedInput-input {
+        color: #fff;
+    }
+
+    :hover .MuiInputLabel-root {
+        color: black;
+    }
+
+    :hover .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+        border-color: #fff;
+    }
+
+    .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-input {
+        color: black;
+    }
+
+    .MuiInputLabel-root.Mui-focused {
+        color: black;
+    }
+
+    .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+        border-color: #fff;
+    }
+
+    .css-1nv32ag-MuiButtonBase-root-MuiIconButton-root {
+        @include mobile-large {
+            display: none;
+        }
+    }
+
+    // material class
+
+    .css-3e39lh-MuiGrid-root {
+        @include mobile-large {
+            margin-left: -10px;
+        }
+    }
+
+    .css-bijmy9 {
+        @include laptop {
+            width: 80%;
+        }
+
+        @include mobile {
+            width: 100%;
+        }
+
+        @include mobile-large {
+            width: 150px;
+            margin-left: -20px;
+        }
+    }
+
+    .slash {
+        width: 4px;
+        height: 45px;
+        background-color: $primary-color;
+
+        @include laptop {
+            height: 40px;
+        }
+
+        @include mobile-large {
+            height: 40px;
+            width: 2px;
+            padding: 0px;
+            margin: 0px;
+        }
+    }
+
+    .color {
+        color: $primary-color;
+        font-size: 22px;
+        font-weight: 700;
+
+        @include laptop {
+            font-size: 20px;
+        }
+
+        @include mobile-large {
+            font-size: 16px;
+        }
+    }
+
+    .icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        color: $primary-color;
+        width: 1.2em;
+        padding: 0px;
+
+        @include laptop {
+            width: 1em;
+        }
+
+        @include mobile-large {
+            display: none;
+        }
+    }
+
+    .btn-add {
+        border-radius: 10px;
+        background-color: $primary-color;
+        padding: 0px 15px;
+        color: $secondary-color;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .style-add {
+            color: $secondary-color;
+            font-size: $font-Size-Subtitle;
+            font-weight: 400;
+            text-transform: none;
+        }
+    }
+
+    // table
+    .container {
+        margin-top: 20px;
+
+        @include mobile-small {
+            width: 640px !important;
+        }
+
+        @include mobile {
+            width: 590px !important;
+        }
+
+        @include mobile-large {
+            width: 380px !important;
+        }
+
+        .table-container {
+            width: 100%;
+            border-collapse: separate;
+            display: table;
+            overflow-x: auto;
+            white-space: nowrap;
+            border-spacing: 0px 8px;
+
+            .header-row {
+                .header-title {
+                    padding: 10px;
+                    border: none;
+                    font-size: $font-Size-Subtitle;
+                    color: $primary-color;
+                    font-weight: bold;
+                }
+            }
+
+            .body {
+                box-shadow: none;
+                background-color: white !important;
+
+                :hover {
+                    background-color: rgb(200, 233, 255);
+                }
+
+                .body-row {
+                    .body-title {
+                        padding: 10px;
+                        border: none;
+                        font-size: $font-Size-description;
+
+                        @include mobile-large {
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

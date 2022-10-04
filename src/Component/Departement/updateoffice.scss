@@ -1,0 +1,85 @@
+@import '../../themes.scss';
+
+.updateOffice{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 520px;    
+    background-color: #fff;
+    box-shadow: 30px;
+    border-radius: 10px;
+    padding: 20px;
+
+    @include mobile-large {
+        width: 400px;
+        padding: 10px 20px;
+        // height: 700px;
+    }
+   
+ 
+    .header-title {
+        color: $primary-color;
+        font-weight: bold;
+
+        @include mobile-large {
+            font-size: 18px;
+            font-weight: 500;
+        }
+       
+    }
+    .header-body{
+        color: $primary-color;
+
+    }
+    .header-title-lasname{
+        color: #fff;
+    }
+    .profile{
+        direction: row;
+        justify-content: center;
+
+        .avater-image
+        {
+            width: 200px;
+            height: 200px;
+            cursor: pointer;
+            border-radius: 10% !important;
+            box-shadow: 1px 4px 5px 0px rgba(39, 39, 39, 0.19);
+            -webkit-box-shadow: 1px 4px 5px 0px rgba(39, 39, 39, 0.19);
+            -moz-box-shadow: 1px 4px 5px 0px rgba(39, 39, 39, 0.19);
+
+            @include mobile-large {
+                width: 100px;
+                height: 100px;
+            }
+        }
+    }
+    
+    .container {
+
+        .table-top {
+            width: 100%;      
+            .header-row {            
+                .header-title {
+                    padding: 10px 0px 10px 0px;
+                    border: none;
+                    font-size: 16px;
+                    font-weight: bold;
+                    color: $primary-color;
+                }
+            }            
+        }
+    }
+
+    .btn-update{
+        box-shadow: none;
+
+        &:hover{
+            box-shadow: none;
+        }
+    }
+
+
+}

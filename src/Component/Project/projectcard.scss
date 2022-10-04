@@ -1,0 +1,71 @@
+@import "../../themes.scss";
+
+.project-card {
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 3px 2px 8px 2px #f2f1f4;
+    cursor: pointer;
+    &:hover {
+        transition: 0.3s;
+        transform: translateY(-0.2em);
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    }
+
+    .day-left {
+        color: $primary-color;
+
+        .day-left-icon {
+            padding-top: 2px;
+            font-size: 15px;
+        }
+    }
+
+    .icons {
+        display: flex;
+        justify-content: right;
+
+        .action-icon {
+            font-size: 20px;
+        }
+    }
+
+    .card-title {
+        color: gray;
+        // margin-top: 10px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .card-date {
+        display: flex;
+        .date {
+            font-weight: bold;
+            margin-left: 5px;
+            color: gray;
+        }
+    }
+
+    .tasks {
+        display: flex;
+        justify-content: left;
+
+        .task-name {
+            font-size: 15px;
+        }
+    }
+
+    .percent-progress {
+        display: flex;
+        justify-content: right;
+    }
+
+    .group-avatar {
+        display: flex;
+        justify-content: left;
+
+        .avatar {
+            width: 30px;
+            height: 30px;
+        }
+    }
+}

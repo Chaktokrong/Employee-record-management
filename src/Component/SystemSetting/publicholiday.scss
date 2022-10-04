@@ -1,0 +1,102 @@
+@import "../../themes.scss";
+
+.set-public-holiday {
+    .slash {
+        width: 4px;
+        height: 45px;
+        background-color: $primary-color;
+
+        @include laptop {
+            height: 40px;
+        }
+
+        @include mobile-large {
+            height: 40px;
+            width: 2px;
+            padding: 0px;
+            margin: 0px;
+        }
+    }
+
+    .color {
+        color: $primary-color;
+        font-size: $font-Size-title;
+        font-weight: bold;
+
+        @include laptop {
+            font-size: 20px;
+        }
+
+        @include mobile-large {
+            font-size: 16px;
+        }
+    }
+
+    .container {
+        .btn-seletec-month {
+            margin-top: 10px;
+            border-radius: $radius;
+            width: 100%;
+            height: 50px;
+            background-color: #fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            .btn {
+                font-weight: bold;
+            }
+        }
+
+        .btn-select {
+            @include desktop {
+                display: none;
+            }
+            @include laptop {
+                display: none;
+            }
+            @include tablet {
+                display: none;
+            }
+            @include mobile-large {
+                display: none;
+            }
+            @include mobile {
+                display: none;
+            }
+            @include mobile-small {
+                display: none;
+            }
+        }
+
+        .list-select {
+            .MuiOutlinedInput-input {
+                color: black !important;
+                background-color: #fff;
+            }
+
+            .MuiInputLabel-root {
+                color: black !important;
+            }
+
+            .css-1gywuxd-MuiInputBase-root-MuiOutlinedInput-root {
+                @include mobile-large {
+                    width: 150px;
+                }
+            }
+
+            .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+                border-color: #fff;
+                color: black;
+            }
+        }
+
+        .form-set-up {
+            margin-top: 10px;
+            border-radius: $radius;
+            width: 100%;
+            // height: fit-content;
+            background-color: #fff;
+        }
+    }
+}

@@ -1,0 +1,44 @@
+@import "../../themes.scss";
+
+.contract-employee {
+    .employee-overview-header {
+        color: $primary-color;
+        font-weight: bold;
+        font-size: 18px;
+        margin-bottom: 15px;
+        padding-left: 20px;
+        // padding-top: 20px;
+    }
+
+    .body-contract {
+        background-color: white;
+        border-radius: 10px;
+        padding: 20px;
+
+        .left {
+            width: 50%;
+            .text {
+                font-weight: bold;
+                font-size: 17px;
+            }
+            .icon-pendding {
+                color: $primary-color;
+                font-size: 50px;
+            }
+            .btn-check-expire {
+                border-radius: 10px;
+                background-color: #ff655d !important;
+                // font-weight: bold;
+                color: white;
+                margin-left: 5px;
+            }
+        }
+        .right {
+            width: 50%;
+            .text {
+                color: $primary-color;
+            }
+            // .avatar-group
+        }
+    }
+}

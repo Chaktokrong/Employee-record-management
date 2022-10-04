@@ -1,0 +1,107 @@
+@import "../../themes.scss";
+
+.employee-details {
+    .slash {
+        width: 4px;
+        height: 45px;
+        background-color: $primary-color;
+    }
+
+    .color {
+        color: $primary-color;
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    .btn-addes {
+        border-radius: 10px;
+        background-color: $primary-color !important;
+        padding: 4px 10px;
+        flex-direction: column;
+        justify-content: center;
+
+        .style-addes {
+            color: $secondary-color;
+            font-size: $font-Size-Subtitle;
+            font-weight: 400;
+        }
+    }
+
+    .main-containner {
+        margin-top: 10px;
+
+        .box-container {
+            border-bottom: 1px solid gray;
+            padding: 10px 0px;
+            .btn-attendance {
+                color: #000;
+                font-family: $font-title;
+                text-transform: none;
+                background: none;
+                border-radius: 0px;
+                width: 110px;
+                padding: 4px 0px;
+                font-weight: bold;
+                font-size: $font-Size-Subtitle;
+            }
+            .active-btn-attendance {
+                color: #000;
+                font-family: $font-title;
+                text-transform: none;
+                background: none;
+                border-radius: 0px;
+                width: 110px;
+                font-weight: bold;
+                padding: 4px 0px;
+                border-bottom: 2px solid $primary-color;
+                font-size: $font-Size-Subtitle;
+            }
+            .btn-information {
+                color: #000;
+                font-family: $font-title;
+                text-transform: none;
+                background: none;
+                border-radius: 0px;
+                width: 190px;
+                padding: 4px 0px;
+                font-weight: bold;
+                font-size: $font-Size-Subtitle;
+            }
+            .active-btn-information {
+                color: #000;
+                font-family: $font-title;
+                text-transform: none;
+                background: none;
+                border-radius: 0px;
+                width: 190px;
+                padding: 4px 0px;
+                font-weight: bold;
+                border-bottom: 2px solid $primary-color;
+                font-size: $font-Size-Subtitle;
+            }
+            .btn-work {
+                color: #000;
+                font-family: $font-title;
+                text-transform: none;
+                background: none;
+                border-radius: 0px;
+                width: 90px;
+                padding: 4px 0px;
+                font-weight: bold;
+                font-size: $font-Size-Subtitle;
+            }
+            .active-btn-work {
+                color: #000;
+                font-family: $font-title;
+                text-transform: none;
+                background: none;
+                border-radius: 0px;
+                width: 90px;
+                padding: 4px 0px;
+                font-weight: bold;
+                border-bottom: 2px solid $primary-color;
+                font-size: $font-Size-Subtitle;
+            }
+        }
+    }
+}

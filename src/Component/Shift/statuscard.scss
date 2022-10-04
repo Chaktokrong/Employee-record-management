@@ -1,0 +1,127 @@
+@import "../../themes.scss";
+
+.pending {
+    margin-top: 30px;
+
+    .pending-container {
+        width: 100%;
+        background-color: #fff;
+        border-radius: 10px;
+        transition: 0.3s;
+        cursor: pointer;
+
+        &:hover {
+            transition: 0.3s;
+            transform: translateY(-0.2em);
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+        }
+
+        .btn-pending {
+            padding: 14px;
+            width: 100%;
+            .stack-text {
+                margin-left: 14px;
+                padding: 3px 0px;
+
+                .name {
+                    font-family: $font-title;
+                    font-size: 16px;
+                    font-weight: bold;
+                    color: #000;
+                    text-align: left;
+                    text-transform: none;
+                }
+
+                .staff-id {
+                    font-family: $font-title;
+                    color: $primary-color;
+                    font-size: 14px;
+                    text-align: left;
+                    text-transform: none;
+
+                    .id-num {
+                        font-family: $font-title;
+                        font-weight: bold;
+                        text-align: left;
+                        text-transform: none;
+                    }
+                }
+            }
+
+            .stack-center {
+                width: 100%;
+                height: 60px;
+                background-color: rgb(245, 249, 253);
+
+                .front-box {
+                    height: 100%;
+                    width: 3px;
+                    background-color: $primary-color;
+                }
+
+                .front-box-pending {
+                    height: 100%;
+                    width: 3px;
+                    background-color: orange;
+                }
+
+                .box-items {
+                    margin-left: 20px;
+                    height: 100%;
+
+                    .stack-reason {
+                        width: 100%;
+                        padding: 2px 0px;
+
+                        .reason {
+                            font-family: $font-title;
+                            font-size: 13px;
+                            font-weight: bold;
+                            text-align: left;
+                            color: #000;
+                            text-transform: none;
+                        }
+
+                        .date {
+                            font-family: $font-title;
+                            font-size: 12px;
+                            font-weight: bold;
+                            text-align: left;
+                            color: #000;
+                            text-transform: none;
+                        }
+                        .time {
+                            font-family: $font-title;
+                            font-size: 12px;
+                            font-weight: bold;
+                            text-align: left;
+                            color: #000;
+                            text-transform: none;
+                        }
+                    }
+                }
+            }
+
+            .box-reason {
+                width: fit-content;
+                border-radius: 6px;
+
+                .reason-title {
+                    font-weight: bold;
+                    font-family: $font-title;
+                    font-size: 15px;
+                    text-align: left;
+                    color: #000;
+                    text-transform: none;
+                }
+                .reason-text {
+                    font-family: $font-title;
+                    font-size: 13px;
+                    text-align: left;
+                    color: #000;
+                    text-transform: none;
+                }
+            }
+        }
+    }
+}

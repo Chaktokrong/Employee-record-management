@@ -1,0 +1,234 @@
+@import "../../themes.scss";
+
+.departmentdetail-page {
+    .tabler-row {
+        cursor: pointer;
+        transition: 0.2s;
+
+        &:hover {
+            background-color: #8ed5ff;
+            transition: 0.2s;
+        }
+    }
+
+    .MuiOutlinedInput-input {
+        color: black !important;
+    }
+
+    .MuiInputLabel-root {
+        color: black !important;
+        box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+    }
+
+    .css-1gywuxd-MuiInputBase-root-MuiOutlinedInput-root {
+        box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+    }
+
+    .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+        border-color: #fff;
+    }
+
+    :hover .MuiOutlinedInput-input {
+        color: #fff;
+    }
+
+    :hover .MuiInputLabel-root {
+        color: black;
+    }
+
+    :hover .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+        border-color: #fff;
+    }
+
+    .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-input {
+        color: black;
+    }
+
+    .MuiInputLabel-root.Mui-focused {
+        color: black;
+    }
+
+    .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+        border-color: #fff;
+    }
+
+    .slash {
+        width: 4px;
+        height: 45px;
+        background-color: $primary-color;
+    }
+
+    .color {
+        color: $primary-color;
+        font-size: 22px;
+        font-weight: 700;
+    }
+
+    .icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        color: $primary-color;
+        width: 1.2em;
+        padding: 0px;
+    }
+
+    .btn-add {
+        border-radius: 10px;
+        background-color: $primary-color;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0px 10px;
+
+        .style-add {
+            color: $secondary-color;
+            font-size: $font-Size-Subtitle;
+            font-weight: 400;
+            text-transform: none;
+        }
+    }
+
+    .containner {
+        margin-top: 30px;
+
+        .Container-office {
+            width: 100%;
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+
+            @include tablet {
+                margin: 30px 10px;
+                padding: 0px 60px;
+            }
+
+            @include mobile-small {
+                width: 640px !important;
+            }
+
+            @include mobile {
+                width: 590px !important;
+            }
+
+            @include mobile-large {
+                width: 380px !important;
+            }
+
+            .Container-title {
+                .text {
+                    font-size: $font-Size-Subtitle;
+                    text-align: center;
+                    font-weight: bold;
+                    line-height: 30px;
+                }
+                .text-sub {
+                    font-size: $font-Size-description;
+                    text-align: center;
+                    line-height: 30px;
+                }
+            }
+
+            .Container-image {
+                display: flex;
+                justify-content: center;
+                margin-top: -20px;
+                .image {
+                    width: 100px;
+                    height: 100px;
+                }
+            }
+
+            .icon-more {
+                display: flex;
+                justify-content: right;
+                color: #707070;
+            }
+        }
+
+        .container-box {
+            .container-details {
+                background-color: rgb(255, 255, 255);
+                width: 100%;
+                padding: 20px;
+                margin-top: 30px;
+                border-radius: 10px;
+
+                .container-icons {
+                    .icons {
+                        font-size: 1em;
+                        color: gray;
+                    }
+                }
+
+                .container-text {
+                    .text {
+                        color: rgb(0, 0, 48);
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+
+        .container-table {
+            .css-1azl6jz-MuiTableCell-root {
+                @include tablet {
+                    width: 0%;
+                }
+            }
+
+            .css-1bu53wp-MuiGrid-root {
+                @include tablet {
+                    max-width: 100%;
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+
+            .css-xei7ky-MuiGrid-root {
+                @include tablet {
+                    max-width: 100%;
+                }
+            }
+
+            @include tablet {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .tb-container {
+                margin-top: 5px;
+                border-radius: 10px;
+                box-shadow: none;
+
+                .tb-row {
+                    background-color: $primary-color;
+
+                    .header-title {
+                        color: #fff;
+                        font-weight: 600;
+
+                        @include tablet {
+                            font-size: 12px;
+                        }
+                    }
+
+                    .css-1ygcj2i-MuiTableCell-root {
+                        @include tablet {
+                            padding: 0px !important;
+                        }
+                    }
+
+                    .css-1azl6jz-MuiTableCell-root {
+                        @include tablet {
+                            text-align: center;
+                            width: 25%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

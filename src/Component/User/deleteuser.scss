@@ -1,0 +1,37 @@
+@import "../../themes.scss";
+
+.delete-user {
+    .MuiPaper-root {
+        border-radius: 12px !important;
+        width: 450px !important;
+    }
+    .header-title {
+        color: $primary-color;
+        font-weight: bold;
+    }
+
+    .body-title {
+        color: $primary-color;
+    }
+
+    .close-icon {
+        color: red;
+        cursor: pointer;
+    }
+
+    .box-form {
+        padding: 0px 10px 10px 10px;
+
+        .body-void {
+            color: $primary-color;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        .btn-void {
+            background-color: red;
+            color: white;
+            border: none;
+        }
+    }
+}

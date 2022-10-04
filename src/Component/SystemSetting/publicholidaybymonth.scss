@@ -1,0 +1,32 @@
+@import "../../themes.scss";
+
+.public-by-month {
+    width: 100%;
+    padding: 30px;
+
+    .header-month-text {
+        color: $primary-color;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .month-text {
+        font-weight: bold;
+    }
+
+    .btn-create {
+        box-shadow: none !important;
+    }
+
+    .item-public {
+        margin-top: 10px;
+        border-left: 4px solid $primary-color;
+        height: 60px;
+        background-color: $background-modal;
+        padding: 10px;
+
+        .title-text {
+            font-weight: bold;
+        }
+    }
+}

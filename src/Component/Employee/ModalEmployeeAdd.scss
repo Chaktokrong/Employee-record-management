@@ -1,0 +1,120 @@
+@import "../../themes.scss";
+
+.dialog-employee {
+    .MuiPaper-root {
+        border-radius: 12px !important;
+        width: 500px !important;
+    }
+
+    .header-title {
+        color: $primary-color;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .close-icon {
+        color: red !important;
+    }
+
+    // Field Date
+    .css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root {
+        height: 45px;
+    }
+
+    .stack {
+        .header-title {
+            color: $primary-color;
+            font-weight: bold;
+            font-size: $font-Size-title;
+            display: flex;
+        }
+    }
+
+    .create-employee {
+        .date-respon-desktop {
+            @include mobile-large {
+                display: none;
+            }
+            @include mobile {
+                display: none;
+            }
+            @include mobile-small {
+                display: none;
+            }
+        }
+        .date-respon-mobile {
+            display: none;
+            @include mobile-large {
+                display: flex;
+            }
+            @include mobile {
+                display: flex;
+            }
+            @include mobile-small {
+                display: flex;
+            }
+        }
+
+        .header-title {
+            color: $primary-color;
+            font-size: $font-Size-Subtitle;
+            font-weight: bold;
+        }
+
+        .header-body {
+            color: $primary-color;
+            font-family: $font-title;
+            font-weight: bold;
+            font-size: $font-Size-description;
+        }
+
+        .header-title-lasname {
+            color: #fff;
+        }
+
+        .profile {
+            direction: row;
+            justify-content: center;
+
+            .avater-image {
+                width: 150px;
+                height: 150px;
+
+                @include mobile-large {
+                    width: 100px;
+                    height: 100px;
+                }
+            }
+        }
+
+        .container {
+            .table-top {
+                width: 100%;
+
+                .header-row {
+                    .header-title {
+                        padding: 10px 0px 10px 0px;
+                        border: none;
+                        font-size: 16px;
+                        font-weight: bold;
+                        color: $primary-color;
+                    }
+                }
+            }
+        }
+
+        .action-button {
+            width: 100%;
+            margin-top: 20px;
+
+            .btn-create {
+                width: 100%;
+                border-radius: 10px;
+                background-color: $primary-color;
+                color: #fff;
+                // text-transform: none;
+                font-family: $font-title;
+            }
+        }
+    }
+}

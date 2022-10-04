@@ -1,0 +1,20 @@
+@import "../../themes.scss";
+
+.select-muti-user {
+  .assign-team-icon {
+    font-size: 24px;
+    color: $primary-color;
+  }
+  .avatar-list {
+    width: 25px;
+    height: 25px;
+  }
+  .avatar-display-group {
+    // background-color: red;
+    margin-top: -15px;
+    .avatar {
+      width: 34px;
+      height: 34px;
+    }
+  }
+}

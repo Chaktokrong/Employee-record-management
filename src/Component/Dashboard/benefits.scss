@@ -1,0 +1,185 @@
+@import '../../themes.scss';
+
+.grid-benefits {
+
+    .benefits-one {
+        background-color: #ffff;
+        height: 220px;
+        border-radius: 10px;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+
+        .benefits-container {
+            // background-color: red;
+            .benefits-title{
+                text-align: center;
+            }
+        }
+    }
+
+    .employee-two {
+        background-color: #ffff;
+        height: 110px;
+        border-radius: 10px;
+        display: flex;
+        padding: 20px;
+
+        .box-icon {
+            width: 70px;
+            height: 70px;
+            background-color: #ED7D31;
+            border-radius: 10px;
+            padding: 14px;
+            // opacity: 85%;
+
+            .icon {
+                color: #fff;
+                font-size: 40px;
+            }
+        }
+
+        .total-employee {
+            font-size: 16px;
+            opacity: 50%;
+        }
+
+        .number-employee {
+            font-size: 38px;
+            color: #ED7D31;
+            font-weight: bold;
+        }
+    }
+
+    .employee-three {
+        background-color: #ffff;
+        height: 110px;
+        border-radius: 10px;
+        display: flex;
+        padding: 20px;
+
+        .box-icon {
+            width: 70px;
+            height: 70px;
+            background-color: #A5A5A5;
+            border-radius: 10px;
+            padding: 14px;
+            // opacity: 85%;
+
+            .icon {
+                color: #fff;
+                font-size: 40px;
+            }
+        }
+
+        .total-employee {
+            font-size: 16px;
+            opacity: 50%;
+        }
+
+        .number-employee {
+            font-size: 38px;
+            color: #A5A5A5;
+            font-weight: bold;
+        }
+    }
+
+    .employee-four {
+        background-color: #ffff;
+        height: 110px;
+        border-radius: 10px;
+        display: flex;
+        padding: 20px;
+
+        .box-icon {
+            width: 70px;
+            height: 70px;
+            background-color: #FFC000;
+            border-radius: 10px;
+            padding: 14px;
+            // opacity: 85%;
+
+            .icon {
+                color: #fff;
+                font-size: 40px;
+            }
+        }
+
+        .total-employee {
+            font-size: 16px;
+            opacity: 50%;
+        }
+
+        .number-employee {
+            font-size: 38px;
+            color: #FFC000;
+            font-weight: bold;
+        }
+    }
+
+    .employee-fifth{
+        background-color: #ffff;
+        height: 110px;
+        border-radius: 10px;
+        display: flex;
+        padding: 20px;
+
+        .box-icon {
+            width: 70px;
+            height: 70px;
+            background-color: $primary-color;
+            border-radius: 10px;
+            padding: 14px;
+            // opacity: 85%;
+
+            .icon {
+                color: #fff;
+                font-size: 40px;
+            }
+        }
+
+        .total-employee {
+            font-size: 16px;
+            opacity: 50%;
+        }
+
+        .number-employee {
+            font-size: 38px;
+            color: $primary-color;
+            font-weight: bold;
+        }
+    }
+
+    .employee-six{
+        background-color: #ffff;
+        height: 110px;
+        border-radius: 10px;
+        display: flex;
+        padding: 20px;
+
+        .box-icon {
+            width: 70px;
+            height: 70px;
+            background-color: #ED7D31;
+            border-radius: 10px;
+            padding: 14px;
+            // opacity: 85%;
+
+            .icon {
+                color: #fff;
+                font-size: 40px;
+            }
+        }
+
+        .total-employee {
+            font-size: 16px;
+            opacity: 50%;
+        }
+
+        .number-employee {
+            font-size: 38px;
+            color: #ED7D31;
+            font-weight: bold;
+        }
+    }
+}

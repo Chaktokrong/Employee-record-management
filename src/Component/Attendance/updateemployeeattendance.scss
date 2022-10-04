@@ -1,0 +1,86 @@
+@import "../../themes.scss";
+
+.employee-attendance-update-dialog {
+    .MuiPaper-root {
+        border-radius: 12px !important;
+        width: 470px !important;
+    }
+
+    .header-title {
+        color: $primary-color;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .title {
+        font-family: $font-title;
+        font-size: $font-title;
+        color: $primary-color;
+        font-weight: bold;
+    }
+
+    .close-icon {
+        color: red;
+        cursor: pointer;
+    }
+
+    .date-chechout-respon-desktop {
+        @include mobile-large {
+            display: none;
+        }
+        @include mobile {
+            display: none;
+        }
+        @include mobile-small {
+            display: none;
+        }
+    }
+    .date-chechout-respon-mobile {
+        display: none;
+        @include mobile-large {
+            display: flex;
+        }
+        @include mobile {
+            display: flex;
+        }
+        @include mobile-small {
+            display: flex;
+        }
+    }
+
+    .box-form {
+        .field-title {
+            font-size: $font-Size-description;
+            color: $primary-color;
+            font-weight: bold;
+        }
+    }
+
+    .field-title-image {
+        text-align: center;
+        font-size: $font-Size-Subtitle;
+        color: $primary-color;
+        font-weight: bold;
+        padding-bottom: 20px;
+    }
+
+    .crop-icon {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .action-button {
+        padding: 0px 18px 16px 18px;
+        width: 100%;
+
+        .btn-create {
+            width: 100%;
+            padding: 8px 40px;
+            border-radius: 5px;
+            background-color: $primary-color;
+            color: #fff;
+            font-weight: bold;
+        }
+    }
+}

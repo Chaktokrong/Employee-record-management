@@ -1,0 +1,57 @@
+@import "../../themes.scss";
+
+.delete-branch-dailog {
+    .MuiPaper-root {
+        border-radius: 12px !important;
+        width: 450px !important;
+    }
+
+    .close-icon {
+        color: red;
+        cursor: pointer;
+    }
+
+    .title {
+        font-weight: bold;
+        color: $primary-color;
+    }
+    .body-title {
+        color: $primary-color;
+    }
+
+    .body-void {
+        color: $primary-color;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    .btn-void {
+        background-color: red;
+        color: white;
+        border: none;
+    }
+
+    .action-button {
+        padding: 0px 18px 16px 18px;
+        width: 100%;
+
+        .create-btn-holiday {
+            box-shadow: none !important;
+        }
+        .create-btn-timeoff {
+            background-color: $primary-color;
+            border-radius: 5px;
+            margin-top: 20px;
+            width: 100%;
+            color: #fff;
+            padding: 8px 40px;
+            font-weight: bold;
+        }
+        .btn-delete {
+            background-color: $hover-red;
+            margin-top: 20px;
+            width: 100%;
+            color: #fff;
+        }
+    }
+}

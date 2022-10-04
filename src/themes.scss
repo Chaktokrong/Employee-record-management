@@ -1,0 +1,69 @@
+// -----------Color
+$primary-color: #0f81c2;
+$secondary-color: #ffffff;
+$gray-color: #e2e2e2;
+
+// radius
+$radius: 10px;
+$radius-opload: 25px;
+
+//------------background Color
+$background-menu: linear-gradient(180deg, #ffffff 20%, #dde9f3 100%);
+$background-modal: #ebf2f8;
+$background-table-row: rgba(226, 226, 226, 0.414);
+
+//-------------hover
+$hover-blue: rgb(71, 166, 255);
+$hover-red: rgb(255, 71, 71);
+
+//-------------font-family
+$font-title: "Century Gothic";
+$font-second: "Khmer OS Siemreap";
+
+//------------font-size
+$font-Size-title: 20px;
+$font-Size-Subtitle: 16px;
+$font-Size-description: 14px;
+
+// Reposive
+@mixin desktop {
+    @media (min-width: #{1025px}) and (max-width: #{1650px}) {
+        @content;
+    }
+}
+
+@mixin laptop-large {
+    @media (min-width: #{1025px}) and (max-width: #{1440px}) {
+        @content;
+    }
+}
+
+@mixin laptop {
+    @media (min-width: #{769px}) and (max-width: #{1024px}) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media (min-width: #{426px}) and (max-width: #{768px}) {
+        @content;
+    }
+}
+
+@mixin mobile-large {
+    @media (min-width: #{426px}) and (max-width: #{600px}) {
+        @content;
+    }
+}
+
+@mixin mobile {
+    @media (min-width: #{377px}) and (max-width: #{425px}) {
+        @content;
+    }
+}
+
+@mixin mobile-small {
+    @media (min-width : #{0px}) and (max-width: #{376px}) {
+        @content;
+    }
+}

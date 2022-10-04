@@ -1,0 +1,135 @@
+@import '../../themes.scss';
+
+.dialog-salary {
+
+    .MuiPaper-root {
+        border-radius: 12px !important;
+        // width: 600px !important;
+    }
+
+    // Field Date
+    .css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root {
+        height: 45px;
+    }
+
+    .stack {
+       margin-top: -20px;
+        .header-title {
+            color: $primary-color;
+            font-weight: bold;
+            font-size: $font-Size-title;
+            display: flex;
+
+        }
+    }
+
+    .create-salary {
+        padding-top: 20px;
+
+        @include mobile-large {
+            width: 400px;
+            padding: 10px 20px;
+        }
+
+        .css-u10pvi-MuiStack-root>:not(style)+:not(style) {
+            margin-left: 40px !important;
+        }
+
+        .header-title {
+            color: $primary-color;
+            font-weight: bold;
+
+            @include mobile-large {
+                font-size: 18px;
+                font-weight: 500;
+            }
+
+        }
+
+        .header-body {
+            color: $primary-color;
+
+        }
+
+        .header-title-lasname {
+            color: #fff;
+        }
+
+        .profile {
+            direction: row;
+            justify-content: center;
+
+            .avater-image {
+                width: 150px;
+                height: 150px;
+
+                @include mobile-large {
+                    width: 100px;
+                    height: 100px;
+                }
+            }
+        }
+
+        .container {
+
+            .table-top {
+                width: 100%;
+
+                .header-row {
+                    .header-title {
+                        padding: 10px 0px 10px 0px;
+                        border: none;
+                        font-size: 16px;
+                        font-weight: bold;
+                        color: $primary-color;
+                    }
+                }
+
+
+            }
+        }
+
+        .action-button {
+            width: 100%;
+            margin-top: 20px;
+
+            @include mobile-large {
+                position: absolute;
+                top: 70%;
+                padding: 0px 10px 16px 30px;
+            }
+
+            .btn-cencel {
+                width: 100%;
+                padding: 8px 40px;
+                border-radius: 10px;
+                background-color: rgb(230, 43, 43);
+                color: #fff;
+                text-transform: none;
+                transition: 0.3s;
+
+                &:hover {
+                    transform: scale(1.03);
+                    transition: 0.3s;
+                    background-color: $hover-red;
+                }
+            }
+
+            .btn-create {
+                width: 100%;
+                padding: 8px 40px;
+                border-radius: 10px;
+                background-color: $primary-color;
+                color: #fff;
+                text-transform: none;
+                transition: 0.3s;
+
+                &:hover {
+                    transform: scale(1.03);
+                    transition: 0.3s;
+                    background-color: $hover-blue;
+                }
+            }
+        }
+    }
+}

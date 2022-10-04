@@ -1,0 +1,18 @@
+@import "../../themes.scss";
+
+.section-detaisls-page {
+    //
+    .add-icon-position {
+        color: $primary-color;
+    }
+
+    .table {
+        .table-header {
+            .header-title {
+                font-size: 15px;
+                font-weight: bold;
+                color: $primary-color;
+            }
+        }
+    }
+}

@@ -1,0 +1,38 @@
+@import "../../themes.scss";
+
+.create-position {
+    .MuiPaper-root {
+        border-radius: 12px !important;
+        width: 450px !important;
+    }
+
+    .header-title {
+        color: $primary-color;
+        font-size: $font-Size-title;
+        font-weight: bold;
+        font-family: "Century Gothic";
+    }
+
+    .close-icon {
+        color: red !important;
+    }
+    .title-text-field {
+        color: $primary-color;
+        font-size: $font-Size-description;
+        font-weight: bold;
+    }
+
+    .action-button {
+        padding: 0px 18px 16px 18px;
+        width: 100%;
+        .create-btn {
+            width: 100%;
+            padding: 8px 40px;
+            background-color: $primary-color;
+            border-radius: 5px;
+            // margin-top: 20px;
+            color: #fff;
+            font-weight: bold;
+        }
+    }
+}

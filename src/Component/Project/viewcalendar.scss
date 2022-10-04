@@ -1,0 +1,49 @@
+@import "../../themes.scss";
+
+.drawer-list {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 800px;
+
+    .header-title {
+        padding: 10px 15px 6px 15px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        .card-stack-container {
+            width: 100% !important;
+            cursor: pointer;
+            height: 40px !important;
+            // background-color: gray;
+        }
+        .box-list-title {
+            font-size: 20px;
+            color: $primary-color;
+            text-align: center;
+        }
+        .box-list-item {
+            font-size: 20px;
+            font-family: $font-title;
+            color: $primary-color;
+            font-weight: bold;
+        }
+        .btn-icons {
+            cursor: pointer;
+            margin-top: -5px;
+
+            .icons {
+                color: red;
+            }
+        }
+    }
+
+    .calendar-container {
+        padding: 20px;
+
+        .fc .fc-toolbar-title {
+            font-family: $font-title;
+            font-size: $font-Size-title;
+            font-weight: bold;
+            color: $primary-color;
+        }
+    }
+}

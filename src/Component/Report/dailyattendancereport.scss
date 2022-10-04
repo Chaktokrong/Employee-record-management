@@ -1,0 +1,96 @@
+@import "../../themes.scss";
+
+.report-styles {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+
+    .grid-report {
+        width: 100% !important;
+
+        .grid-center {
+            display: flex;
+            justify-content: center;
+
+            .logo {
+                width: 130px;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                .logo-size {
+                    width: 70%;
+                }
+            }
+        }
+
+        .title-Report {
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .box-small {
+            margin-bottom: 15px;
+            width: 110px;
+            display: flex;
+            justify-content: center;
+            font-size: $font-Size-description;
+            font-family: $font-title;
+
+            .present-num {
+                font-size: $font-Size-description;
+                font-family: $font-title;
+                font-weight: bold;
+                margin-left: 5px;
+            }
+        }
+
+        .box-top {
+            margin-bottom: 15px;
+            display: flex;
+            justify-content: center;
+            font-size: $font-Size-description;
+            font-family: $font-title;
+
+            .present-num {
+                font-size: $font-Size-description;
+                font-family: $font-title;
+                font-weight: bold;
+                margin-left: 5px;
+            }
+        }
+    }
+
+    .icon-tick {
+        color: $primary-color;
+    }
+
+    .table {
+        width: 100%;
+        border-collapse: separate;
+        display: table;
+        overflow-x: auto;
+        white-space: nowrap;
+        border-spacing: 0px !important;
+
+        .header-title {
+            color: $primary-color;
+            font-family: $font-title !important;
+            font-size: 13px !important;
+            background-color: #eaf1f7;
+            padding: 15px 10px;
+        }
+
+        .body-text {
+            font-family: $font-title !important;
+            font-size: 13px !important;
+            padding: 7px 10px;
+            border: 0.5px solid #f4f4f4;
+        }
+    }
+}

@@ -1,0 +1,102 @@
+@import '../../themes.scss';
+
+.attendancecreate {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 520px;
+    background-color: #fff;
+    box-shadow: 30px;
+    border-radius: 10px;
+    padding: 20px;
+
+    @include mobile-large {
+        width: 400px;
+        padding: 10px 20px;
+    }
+
+
+    .header-title {
+        color: $primary-color;
+        font-weight: bold;
+
+        @include mobile-large {
+            font-size: 18px;
+            font-weight: 500;
+        }
+
+    }
+
+    .css-v8g4am-MuiGrid-root {
+        margin-left: -4px;
+    }
+
+    .field-upload {
+        border: 1px solid gray;
+        margin-top: 10%;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 30px;
+        border-radius: $radius-opload;
+
+        .header-body {
+            direction: row;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: 700;
+            line-height: 40px;
+            padding-top: 10px;
+
+        }
+
+        .main-upload {
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            padding: 5%;
+
+
+            .btn-upload-file {
+                direction: row;
+                align-items: center;
+                justify-content: center;
+                background-color: $primary-color;
+                width: 80%;
+                padding: 2%;
+                text-transform: none;
+                transition: 0.2s;
+
+                &:hover {
+                    background-color: $hover-blue;
+                    transition: 0.3s;
+                    transform: translateY(-0.20em);
+                    box-shadow: 0 0.4em 0.4em -0.4em $primary-color;
+                }
+            }
+        }
+    }
+
+    .main-upload-btn {
+        padding-top: 5%;
+
+        .upload-btn {
+            background-color: $primary-color;
+            transition: 0.3s;
+
+            &:hover {
+              transform: scale(1.02);
+              transition: 0.2s;
+              background-color: $hover-blue;
+            }
+        }
+    }
+
+
+
+
+
+
+}

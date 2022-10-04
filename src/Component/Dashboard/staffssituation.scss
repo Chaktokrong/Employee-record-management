@@ -1,0 +1,137 @@
+@import "../../themes.scss";
+
+.grid-employee {
+    .employee-overview-header {
+    }
+    .employee-one {
+        background-color: #ffff;
+        height: 110px;
+        border-radius: 10px;
+        display: flex;
+        padding: 20px;
+
+        .box-icon {
+            width: 70px;
+            height: 70px;
+            background-color: $primary-color;
+            border-radius: 10px;
+            padding: 14px;
+            // opacity: 85%;
+
+            .icon {
+                color: #fff;
+                font-size: 40px;
+            }
+        }
+
+        .total-employee {
+            font-size: 16px;
+            opacity: 50%;
+        }
+
+        .number-employee {
+            font-size: 36px;
+            color: $primary-color;
+            font-weight: bold;
+        }
+    }
+
+    .employee-two {
+        background-color: #ffff;
+        height: 110px;
+        border-radius: 10px;
+        display: flex;
+        padding: 20px;
+
+        .box-icon {
+            width: 70px;
+            height: 70px;
+            background-color: #edbd1d;
+            border-radius: 10px;
+            padding: 14px;
+            // opacity: 85%;
+
+            .icon {
+                color: #fff;
+                font-size: 40px;
+            }
+        }
+
+        .total-employee {
+            font-size: 16px;
+            opacity: 50%;
+        }
+
+        .number-employee {
+            font-size: 36px;
+            color: #edbd1d;
+            font-weight: bold;
+        }
+    }
+
+    .employee-three {
+        background-color: #ffff;
+        height: 110px;
+        border-radius: 10px;
+        display: flex;
+        padding: 20px;
+
+        .box-icon {
+            width: 70px;
+            height: 70px;
+            background-color: #a6499a;
+            border-radius: 10px;
+            padding: 14px;
+            // opacity: 85%;
+
+            .icon {
+                color: #fff;
+                font-size: 40px;
+            }
+        }
+
+        .total-employee {
+            font-size: 16px;
+            opacity: 50%;
+        }
+
+        .number-employee {
+            font-size: 36px;
+            color: #a6499a;
+            font-weight: bold;
+        }
+    }
+
+    .employee-four {
+        background-color: #ffff;
+        height: 110px;
+        border-radius: 10px;
+        display: flex;
+        padding: 20px;
+
+        .box-icon {
+            width: 70px;
+            height: 70px;
+            background-color: #653413;
+            border-radius: 10px;
+            padding: 14px;
+            // opacity: 85%;
+
+            .icon {
+                color: #fff;
+                font-size: 40px;
+            }
+        }
+
+        .total-employee {
+            font-size: 16px;
+            opacity: 50%;
+        }
+
+        .number-employee {
+            font-size: 36px;
+            color: #653413;
+            font-weight: bold;
+        }
+    }
+}

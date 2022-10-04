@@ -1,0 +1,121 @@
+@import "../../themes.scss";
+
+.employee-information {
+    .slash {
+        width: 4px;
+        height: 45px;
+        background-color: $primary-color;
+    }
+
+    .color {
+        color: $primary-color;
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    .btn-add {
+        border-radius: 10px;
+        background-color: $primary-color;
+        padding: 0px 8px;
+        height: 40px;
+        transition: 0.3s;
+
+        &:hover {
+            background-color: rgb(71, 166, 255);
+            transition: 0.3s;
+            transform: translateY(-0.2em);
+            box-shadow: 0 0.4em 0.4em -0.4em $primary-color;
+        }
+
+        .style-add {
+            color: $secondary-color;
+            font-size: $font-Size-Subtitle;
+            font-weight: 400;
+            text-transform: none;
+        }
+    }
+
+    .main-containner {
+        margin-top: 20px;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+
+        .profile-container {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+
+            .profile {
+                justify-content: center;
+
+                .avater-image {
+                    margin-top: 10px;
+                    width: 160px;
+                    height: 160px;
+                }
+            }
+            .profile-name-khmer {
+                font-size: $font-Size-title;
+                font-family: $font-second;
+                color: $primary-color;
+                text-align: center;
+            }
+
+            .profile-name {
+                font-size: $font-Size-Subtitle;
+                font-family: $font-title;
+                font-weight: bold;
+                color: $primary-color;
+                text-align: center;
+            }
+            .title-items {
+                font-size: $font-Size-description;
+                font-family: $font-title;
+                margin-top: 10px;
+            }
+            .items-name {
+                font-size: $font-Size-Subtitle;
+                font-family: $font-title;
+                font-weight: bold;
+            }
+        }
+
+        .table-container {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 15px;
+            margin-top: 0;
+
+            .title-table {
+                font-family: $font-title;
+                font-size: $font-Size-Subtitle;
+                color: #fff;
+                font-weight: bold;
+                border-radius: 10px;
+                background-color: $primary-color;
+                padding: 10px 0px 10px 20px;
+            }
+            .education-table {
+                .table-row {
+                    .table-cell {
+                        text-transform: uppercase;
+                        font-size: $font-Size-description;
+                        font-weight: bold;
+                        color: black;
+                        // opacity: 60%;
+                    }
+                }
+
+                .table-row-body {
+                    .table-cell {
+                        font-size: $font-Size-description;
+                        padding: 5px 15px !important;
+                        font-family: $font-title;
+                        // opacity: 60%;
+                    }
+                }
+            }
+        }
+    }
+}

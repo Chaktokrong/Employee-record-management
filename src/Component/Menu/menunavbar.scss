@@ -1,0 +1,101 @@
+@import "../../themes.scss";
+
+.drawer-menu {
+    .MuiDrawer-paper {
+        background: $background-menu;
+        border: none;
+        box-shadow: 0px 15px 15px rgba(42, 173, 254, 0.25);
+    }
+    .css-1242z6g-MuiButtonBase-root-MuiIconButton-root {
+        border-radius: 10px !important;
+    }
+    // .css-41rr9h-MuiButtonBase-root-MuiListItemButton-root{
+    //     padding-bottom: 50px;
+    // }
+
+    .list {
+        .list-item {
+            margin: 8px 0px;
+
+            .list-item-button {
+                max-height: 46px;
+                justify-content: initial;
+
+                .list-item-icon {
+                    max-width: 35px;
+                    margin-right: 10px;
+                    justify-content: center;
+                    opacity: 0.5;
+                }
+
+                .list-item-text {
+                    opacity: 1;
+                    color: black;
+                }
+
+                // menu active
+                .list-item-icon-active {
+                    max-width: 35px;
+                    margin-right: 10px;
+                    justify-content: center;
+                    color: $primary-color;
+                }
+
+                .list-item-text-active {
+                    opacity: 1;
+                    font-family: $font-title;
+                    color: $primary-color;
+
+                    .MuiTypography-root {
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+
+        .list-item-active {
+            margin: 8px 0px;
+
+            .list-item-button {
+                max-height: 48px;
+                justify-content: initial;
+
+                .list-item-icon {
+                    max-width: 35px;
+                    margin-right: 10px;
+                    justify-content: center;
+                    opacity: 0.5;
+                }
+
+                .list-item-text {
+                    opacity: 1;
+                    color: black;
+                }
+
+                // menu active
+                .list-item-icon-active {
+                    max-width: 35px;
+                    margin-right: 10px;
+                    justify-content: center;
+                    color: $primary-color;
+                }
+
+                .list-item-text-active {
+                    opacity: 1;
+                    font-family: $font-title;
+                    color: $primary-color;
+
+                    .MuiTypography-root {
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// logo posion
+.css-d1xtw4 {
+    display: flex;
+    justify-content: center !important;
+}

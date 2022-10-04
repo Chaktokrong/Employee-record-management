@@ -1,0 +1,64 @@
+@import "../../themes.scss";
+
+.set-school-location {
+    .slash {
+        width: 4px;
+        height: 45px;
+        background-color: $primary-color;
+
+        @include laptop {
+            height: 40px;
+        }
+
+        @include mobile-large {
+            height: 40px;
+            width: 2px;
+            padding: 0px;
+            margin: 0px;
+        }
+    }
+
+    .color {
+        color: $primary-color;
+        font-size: $font-Size-title;
+        font-weight: bold;
+
+        @include laptop {
+            font-size: 20px;
+        }
+
+        @include mobile-large {
+            font-size: 16px;
+        }
+    }
+
+    .btn-add {
+        border-radius: 10px;
+        background-color: $primary-color;
+        padding: 0px 15px;
+        color: $secondary-color;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .style-add {
+            color: $secondary-color;
+            font-size: $font-Size-description;
+            font-weight: bold;
+            text-transform: none;
+        }
+    }
+
+    .container {
+        .title-text {
+            color: $primary-color;
+            font-size: $font-Size-Subtitle;
+            font-weight: bold;
+        }
+
+        .text {
+            font-size: $font-Size-Subtitle;
+            font-weight: bold;
+        }
+    }
+}

@@ -1,0 +1,82 @@
+@import "../../themes.scss";
+
+.body-list-materiales {
+  box-shadow: none !important;
+
+  .text-field {
+    .MuiOutlinedInput-input {
+      color: black !important;
+      font-family: $font-title !important;
+      font-weight: bold;
+    }
+    .MuiInputLabel-root {
+      color: black !important;
+    }
+    .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+      border-color: $gray-color;
+    }
+    :hover .MuiOutlinedInput-input {
+      color: #fff;
+      font-family: $font-title !important;
+      font-weight: bold;
+    }
+    :hover .MuiInputLabel-root {
+      color: black;
+    }
+    :hover .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+      border-color: $gray-color;
+    }
+    .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-input {
+      color: black;
+    }
+    .MuiInputLabel-root.Mui-focused {
+      color: black;
+      font-family: $font-title !important;
+      font-weight: bold;
+    }
+    .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+      border-color: $gray-color;
+    }
+  }
+
+  .body-row {
+    // background-color: $background-table-modal;
+
+    .body-title {
+      border: none;
+      font-size: $font-Size-Subtitle;
+      font-family: $font-title !important;
+
+      .status {
+        font-weight: bold;
+        font-family: $font-title !important;
+        color: $primary-color;
+      }
+    }
+  }
+
+  .form-controll-select {
+    .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+      border-color: $gray-color;
+    }
+    :hover .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+      border-color: $gray-color;
+    }
+    .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+      border-color: $gray-color;
+    }
+
+    .MuiOutlinedInput-input {
+      font-family: $font-title !important;
+    }
+    .MuiTypography-root {
+      font-family: $font-title !important;
+      font-weight: bold;
+    }
+
+    .MuiSelect-icon {
+      // color: red;
+      justify-content: center !important;
+    }
+  }
+}
